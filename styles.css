@@ -85,108 +85,20 @@ body {
     margin: 0 20px;
 }
 
-/* Sidebar */
-.sidebar {
-    position: sticky;
-    top: 80px;
-    margin-right: 620px;
-    flex: 0.2;
-    border-radius: 10px;
-    text-align: center;
-    height: fit-content;
+/* Profile pic starts here */
+#profile_pic {
+    position: relative;
+    top: 130px;
+    right: 425px;
+    border-radius: 50%;
+    border: solid 2px white
 }
 
-.sidebar_top img {
-    margin-bottom: -20px;
-    width: 100%;
-    height: 60px;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    object-fit: cover;
+#cover_photo {
+    position: relative;
+    top: 20px;
 }
 
-.sidebar_top {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    border: 1px solid lightgrey;
-    border-bottom: 0;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
+#body_main {
     background-color: white;
-    padding-bottom: 10px;
-}
-
-.sidebar_topAvatar {
-    font-size: 40px;
-}
-
-.sidebar_stats {
-    padding: 10px;
-    margin-bottom: 10px;
-    border: 1px solid lightgray;
-    background-color: white;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-}
-
-.sidebar_stat {
-    margin-top: 10px;
-    display: flex;
-    justify-content: space-between;
-}
-.sidebar_stat p {
-    color: grey;
-    font-size: 13px;
-    font-weight: 600;
-}
-
-.sidebar_statNumber {
-    font-weight: bold;
-    color: #0a66c2 !important;
-}
-
-.sidebar_top h4 {
-    color: grey;
-    font-size: 12px;
-    margin-top: 5px;
-}
-
-.sidebar_top h2 {
-    font-size: 18px;
-}
-
-.sidebar_bottom {
-    text-align: left;
-    padding: 10px;
-    border: 1px solid lightgray;
-    background-color: white;
-    border-radius: 10px;
-    margin-top: 10px;
-}
-
-.sidebar_recentItem {
-    display: flex;
-    font-size: 13px;
-    color: grey;
-    font-weight: bold;
-    cursor: pointer;
-    margin-bottom: 5px;
-    padding: 5px;
-}
-
-.sidebar_recentItem:hover {
-    background-color: whitesmoke;
-    border-radius: 10px;
-    cursor: pointer;
-    color: black;
-}
-
-.sidebar_hash {
-    margin: 0 10px;
-}
-
-.sidebar_bottom {
-    font-size: 14px;
-    padding-bottom: 10px;
 }
